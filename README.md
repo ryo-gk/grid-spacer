@@ -12,7 +12,7 @@ You can use this like the follow example:
 
 ```javascript
 const { execute } = useGrid({
-  containerClass: 'container',
+  containerClass: 'container', // this is required.
   spacerClass: 'box', // default is 'spacer'.
   spacerTag: 'div', // default is 'div'.
   type: 'fill' // default is 'fill'. You can use 'fill' or 'fit'.
