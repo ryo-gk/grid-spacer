@@ -17,6 +17,9 @@ const { execute } = useGrid({
   spacerTag: 'div', // default is 'div'.
   type: 'fill' // default is 'fill'. You can use 'fill' or 'fit'.
 })
+
+// Call `execute` after the page is rendered. 
+execute()
 ```
 
 ```html
