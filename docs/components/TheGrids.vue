@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import { useGrid } from '../../lib/grid'
+import { useGridSpacer } from '../../lib/grid'
 
-const { execute } = useGrid({
+const { execute } = useGridSpacer({
   containerClass: 'TheGrids',
   spacerClass: 'box',
   spacerTag: 'div',

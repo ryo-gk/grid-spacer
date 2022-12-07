@@ -11,7 +11,7 @@ npm i grid-spacer
 You can use this like the follow example:
 
 ```javascript
-const { execute } = useGrid({
+const { execute } = useGridSpacer({
   containerClass: 'container', // this is required.
   spacerClass: 'box', // default is 'spacer'.
   spacerTag: 'div', // default is 'div'.

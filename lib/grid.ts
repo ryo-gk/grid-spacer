@@ -8,7 +8,7 @@ export interface Option {
 export type CssStyles = Partial<Record<keyof CSSStyleDeclaration, string>>
 const SHIM_CLASS = 'shim'
 
-export function useGrid(options: Option) {
+export function useGridSpacer(options: Option) {
   let container: Element | null
 
   const containerClass = toClassSelector(options.containerClass)
