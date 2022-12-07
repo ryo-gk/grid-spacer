@@ -1,6 +1,6 @@
 {
   "name": "grid-spacer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Fill in the gaps with spacer.",
   "main": "dist/grid.js",
   "types": "dist/grid.d.ts",
